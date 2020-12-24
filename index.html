@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Arabic Quiz</title>
+</head>
+<body>
+
+<!--top section-->
+<div class="intro py-3 bg-white text-center">
+    <div class="container">
+        <h2 class="text-primary display-3 my-4">أسئلة ثقافية</h2>
+    </div>
+</div>
+
+<!--result section-->
+<div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+        <p>إجاباتك صحيحة بنسبة  <span class="text-primary display-4 p-3">%0</span> </p>
+    </div>
+</div>
+
+<!-- Quiz Section -->
+<div class="quiz py-4 bg-primary text-right ">
+    <div class="container">
+        <h2 class="my-5 text-white text-light ">...الأسئلة متنوعةو في جميع المجالات</h2>
+
+        <form class="quiz-form text-light">
+            <div class="my-5">
+                <p class="lead font-weight-normal text-white">
+                     عاصمة التشيلي هي ؟
+                </p>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">دودوما</label>
+                    <input type="radio" name="q1" value="A">   
+                </div>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">سانتياغو</label>
+                    <input type="radio" name="q1" value="B" >   
+                </div>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">ماليه</label>
+                    <input type="radio" name="q1" value="C" >
+                </div>
+            </div>
+            <div class="my-5">
+                <p class="lead font-weight-normal">
+                   مبتكر وحدة شدة التيار ؟
+                </p>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">فاراداي</label>
+                    <input type="radio" name="q2" value="A">
+                </div>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">أندريه ماري أمبير</label>
+                    <input type="radio" name="q2" value="B" >
+                </div>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">أرنست رذفورد</label>
+                    <input type="radio" name="q2" value="C" >
+                </div>
+            </div>
+            <div class="my-5">
+                <p class="lead font-weight-normal">
+                   الآية القرآنية ( أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ ) ذكرت في ؟
+                </p>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">سورة التين الآية رقم 8</label>
+                    <input type="radio" name="q3" value="A">
+                </div>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">سورة التين الآية رقم 14</label>
+                    <input type="radio" name="q3" value="B" >
+                </div>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">سورة الإسراء الآية رقم 35</label>
+                    <input type="radio" name="q3" value="C" >
+                </div>
+            </div>
+            <div class="my-5">
+                <p class="lead font-weight-normal ">
+                    تنصيب ملك المغرب محمد السادس على عرش رسميا سنة ؟
+                </p>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">2002</label>
+                    <input type="radio" name="q4" value="A" >
+                </div>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">2000</label>
+                    <input type="radio" name="q4" value="B" >  
+                </div>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">1999</label>
+                    <input type="radio" name="q4" value="C" >  
+                </div>
+            </div>
+            <div class="my-5">
+                <p class="lead font-weight-normal">
+                   تعتبر أقدم مسابقة كرة قدم دولية بالعالم ؟
+                </p>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">بطولة أمم آسيا</label>
+                    <input type="radio" name="q5" value="A" >
+                </div>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">كأس أمم أفريقيا</label>
+                    <input type="radio" name="q5" value="B" >  
+                </div>
+                <div class="form-check my-2 text-white">
+                    <label class="form-check-label">كويا أمريكا</label>
+                    <input type="radio" name="q5" value="C" >  
+                </div>
+            </div>
+            <div class="text-center">
+                <input type="submit" class="btn btn-dark btn-lg btn-block" value="إرسال">
+            </div>
+        </form>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
